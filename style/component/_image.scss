@@ -1,0 +1,27 @@
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--bg-rosa {
+    background-color: $backgroun-color-img-index;
+  }
+
+  &--bg-verde {
+    background-color: $backgroun-color-img-login;
+  }
+
+  &__img {
+    width: 80%;
+    // height: 80%;
+
+    &--bg-rosa {
+      background-color: $backgroun-color-img-index;
+    }
+
+    &--bg-verde {
+      background-color: $backgroun-color-img-login;
+    }
+  }
+}
